@@ -1,0 +1,17 @@
+{
+  "name": "Hot Sauce Co.",
+  "short_name": "Hot Sauce Co.",
+  "description": "Small-batch hot sauce from Knoxville, Tennessee.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0d0b09",
+  "theme_color": "#0d0b09",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 760" role="img" aria-label="The full Hot Sauce Co. lineup">
+  <defs>
+    <radialGradient id="floor" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#e85d1f" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#e85d1f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="560" cy="686" rx="533.3333333333333" ry="62" fill="url(#floor)"/>
+  <g transform="translate(0 60) scale(0.92)">
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="#4F9142" fill-opacity=".92"/>
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="none" stroke="#000" stroke-opacity=".4" stroke-width="2.5"/>
+    <rect x="52" y="230" width="16" height="380" fill="#fff" opacity=".2" rx="8"/>
+    <rect x="93" y="16" width="74" height="108" rx="7" fill="#16130f"/>
+    <rect x="46" y="330" width="168" height="200" rx="5" fill="#f6efe3"/>
+    <rect x="46" y="330" width="168" height="42" rx="5" fill="#4F9142"/>
+    <rect x="46" y="360" width="168" height="12" fill="#4F9142"/>
+    <text x="130" y="360" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="15" font-weight="700" letter-spacing="4" fill="#fff">NO. 1</text>
+    <text x="130" y="422" text-anchor="middle" font-family="Georgia,serif"
+          font-size="21" font-weight="700" fill="#1b1816">Ryn's</text>
+    <line x1="76" y1="442" x2="184" y2="442" stroke="#1b1816" stroke-opacity=".25" stroke-width="1.5"/>
+    <text x="130" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="12" letter-spacing="2" fill="#5c5348">JALAPEÑO</text>
+  </g>
+  <g transform="translate(176 86) scale(0.92)">
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="#C7A11A" fill-opacity=".92"/>
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="none" stroke="#000" stroke-opacity=".4" stroke-width="2.5"/>
+    <rect x="52" y="230" width="16" height="380" fill="#fff" opacity=".2" rx="8"/>
+    <rect x="93" y="16" width="74" height="108" rx="7" fill="#16130f"/>
+    <rect x="46" y="330" width="168" height="200" rx="5" fill="#f6efe3"/>
+    <rect x="46" y="330" width="168" height="42" rx="5" fill="#C7A11A"/>
+    <rect x="46" y="360" width="168" height="12" fill="#C7A11A"/>
+    <text x="130" y="360" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="15" font-weight="700" letter-spacing="4" fill="#fff">NO. 2</text>
+    <text x="130" y="422" text-anchor="middle" font-family="Georgia,serif"
+          font-size="21" font-weight="700" fill="#1b1816">Zaxe</text>
+    <line x1="76" y1="442" x2="184" y2="442" stroke="#1b1816" stroke-opacity=".25" stroke-width="1.5"/>
+    <text x="130" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="12" letter-spacing="2" fill="#5c5348">JALAPEÑO</text>
+  </g>
+  <g transform="translate(352 60) scale(0.92)">
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="#9E2A1E" fill-opacity=".92"/>
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="none" stroke="#000" stroke-opacity=".4" stroke-width="2.5"/>
+    <rect x="52" y="230" width="16" height="380" fill="#fff" opacity=".2" rx="8"/>
+    <rect x="93" y="16" width="74" height="108" rx="7" fill="#16130f"/>
+    <rect x="46" y="330" width="168" height="200" rx="5" fill="#f6efe3"/>
+    <rect x="46" y="330" width="168" height="42" rx="5" fill="#9E2A1E"/>
+    <rect x="46" y="360" width="168" height="12" fill="#9E2A1E"/>
+    <text x="130" y="360" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="15" font-weight="700" letter-spacing="4" fill="#fff">NO. 4</text>
+    <text x="130" y="422" text-anchor="middle" font-family="Georgia,serif"
+          font-size="21" font-weight="700" fill="#1b1816">Ragin</text>
+    <line x1="76" y1="442" x2="184" y2="442" stroke="#1b1816" stroke-opacity=".25" stroke-width="1.5"/>
+    <text x="130" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="12" letter-spacing="2" fill="#5c5348">SERRANO</text>
+  </g>
+  <g transform="translate(528 86) scale(0.92)">
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="#E2761F" fill-opacity=".92"/>
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="none" stroke="#000" stroke-opacity=".4" stroke-width="2.5"/>
+    <rect x="52" y="230" width="16" height="380" fill="#fff" opacity=".2" rx="8"/>
+    <rect x="93" y="16" width="74" height="108" rx="7" fill="#16130f"/>
+    <rect x="46" y="330" width="168" height="200" rx="5" fill="#f6efe3"/>
+    <rect x="46" y="330" width="168" height="42" rx="5" fill="#E2761F"/>
+    <rect x="46" y="360" width="168" height="12" fill="#E2761F"/>
+    <text x="130" y="360" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="15" font-weight="700" letter-spacing="4" fill="#fff">NO. 6</text>
+    <text x="130" y="422" text-anchor="middle" font-family="Georgia,serif"
+          font-size="21" font-weight="700" fill="#1b1816">Shine</text>
+    <line x1="76" y1="442" x2="184" y2="442" stroke="#1b1816" stroke-opacity=".25" stroke-width="1.5"/>
+    <text x="130" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="12" letter-spacing="2" fill="#5c5348">SERRANO</text>
+  </g>
+  <g transform="translate(704 60) scale(0.92)">
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="#C4161C" fill-opacity=".92"/>
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="none" stroke="#000" stroke-opacity=".4" stroke-width="2.5"/>
+    <rect x="52" y="230" width="16" height="380" fill="#fff" opacity=".2" rx="8"/>
+    <rect x="93" y="16" width="74" height="108" rx="7" fill="#16130f"/>
+    <rect x="46" y="330" width="168" height="200" rx="5" fill="#f6efe3"/>
+    <rect x="46" y="330" width="168" height="42" rx="5" fill="#C4161C"/>
+    <rect x="46" y="360" width="168" height="12" fill="#C4161C"/>
+    <text x="130" y="360" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="15" font-weight="700" letter-spacing="4" fill="#fff">NO. 7</text>
+    <text x="130" y="422" text-anchor="middle" font-family="Georgia,serif"
+          font-size="21" font-weight="700" fill="#1b1816">Ichiban</text>
+    <line x1="76" y1="442" x2="184" y2="442" stroke="#1b1816" stroke-opacity=".25" stroke-width="1.5"/>
+    <text x="130" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="12" letter-spacing="2" fill="#5c5348">HABANERO</text>
+  </g>
+  <g transform="translate(880 86) scale(0.92)">
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="#F2A03B" fill-opacity=".92"/>
+    <path d="M100 120v45c0 25-60 50-60 103v332c0 22 18 40 40 40h100c22 0 40-18 40-40V268c0-53-60-78-60-103v-45Z"
+          fill="none" stroke="#000" stroke-opacity=".4" stroke-width="2.5"/>
+    <rect x="52" y="230" width="16" height="380" fill="#fff" opacity=".2" rx="8"/>
+    <rect x="93" y="16" width="74" height="108" rx="7" fill="#16130f"/>
+    <rect x="46" y="330" width="168" height="200" rx="5" fill="#f6efe3"/>
+    <rect x="46" y="330" width="168" height="42" rx="5" fill="#F2A03B"/>
+    <rect x="46" y="360" width="168" height="12" fill="#F2A03B"/>
+    <text x="130" y="360" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="15" font-weight="700" letter-spacing="4" fill="#fff">NO. 8</text>
+    <text x="130" y="422" text-anchor="middle" font-family="Georgia,serif"
+          font-size="21" font-weight="700" fill="#1b1816">Amy's</text>
+    <line x1="76" y1="442" x2="184" y2="442" stroke="#1b1816" stroke-opacity=".25" stroke-width="1.5"/>
+    <text x="130" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+          font-size="12" letter-spacing="2" fill="#5c5348">SCORPION</text>
+  </g>
+</svg>
