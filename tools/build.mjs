@@ -867,6 +867,37 @@ async function injectChrome(files) {
       `$1${SITE.formEndpoint || '#'}$2`
     );
 
+    // Repoint canonical, Open Graph and JSON-LD URLs at the configured
+    // domain. The origin already in the page's own canonical tag is the
+    // search key, so this stays correct however many times the domain
+    // changes, and hand-authored pages never need a find-and-replace.
+    const currentOrigin = (html.match(/<link rel="canonical" href="(https?:\/\/[^/"]+)/) || [])[1];
+    if (currentOrigin && currentOrigin !== SITE.url) {
+      html = html.split(currentOrigin).join(SITE.url);
+    }
+
+    // 404.html is the one page that must link absolutely — a server can serve
+    // it in place of any URL at any depth — so it is also the one page that
+    // breaks when the site moves into a sub-directory.
+    //
+    // The prefix currently in the file is recorded in the page itself rather
+    // than inferred from the config, because the config holds the *new* value
+    // and cannot say what the *previous* build wrote. Without that record,
+    // changing basePath back to '' would leave the old prefix in place.
+    if (rel === '404.html') {
+      const applied = (html.match(/<!--\s*@basePath:(.*?)\s*-->/) || [])[1] || '';
+
+      html = html.replace(/((?:href|src)=")(\/[^"]*)/g, (_m, attr, url) => {
+        const bare = applied && url.startsWith(applied + '/') ? url.slice(applied.length) : url;
+        return attr + SITE.basePath + bare;
+      });
+
+      const marker = `<!-- @basePath:${SITE.basePath} -->`;
+      html = /<!--\s*@basePath:.*?-->/.test(html)
+        ? html.replace(/<!--\s*@basePath:.*?-->/, marker)
+        : html.replace(/(<body[^>]*>)/, `$1\n${marker}`);
+    }
+
     if (html !== before) {
       await writeFile(file, html);
       touched++;

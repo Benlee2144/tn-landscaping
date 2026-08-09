@@ -24,6 +24,18 @@ export const SITE = {
   /* ---- Where people find you ------------------------------------------ */
   url: 'https://example.com', // PLACEHOLDER — your live domain, no trailing slash
 
+  // Sub-directory the site is served from, with a leading slash and no
+  // trailing one. Leave empty for a custom domain, Netlify, Vercel, or a
+  // user/org GitHub Pages site — all of which serve from the root.
+  //
+  // Set it to '/tn-landscaping' (the repo name) if you publish with GitHub
+  // Pages as a *project* site, because that serves from
+  // username.github.io/tn-landscaping/. Only 404.html and the web manifest
+  // care: every other page links relatively and works either way.
+  //
+  // Run `npm run build` after changing this.
+  basePath: '',
+
   address: {
     street: '000 Placeholder Ave', // PLACEHOLDER
     city: 'Knoxville',

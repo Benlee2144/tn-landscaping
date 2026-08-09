@@ -101,10 +101,19 @@ that matter:
 Push the repo to Netlify, Vercel, Cloudflare Pages or GitHub Pages — no build
 command, no output directory. Then:
 
-- Update the domain in `robots.txt` and `SITE.url`, and re-run `npm run build`
+- Set `SITE.url` to your live domain and re-run `npm run build`. That rewrites
+  every canonical, Open Graph and structured-data URL across all 16 pages
+- Update the domain in `robots.txt`
 - Submit `sitemap.xml` in Google Search Console
 - Claim the Google Business Profile — the LocalBusiness structured data on the
   home page is what ties the site to it
+
+**If you publish with GitHub Pages as a project site** — i.e. the site lives at
+`username.github.io/tn-landscaping/` rather than on its own domain — set
+`SITE.basePath` to `'/tn-landscaping'` and re-run the build. Every page links
+relatively and works either way; only `404.html` and the web manifest need the
+prefix, and the build applies it. Leave `basePath` empty for a custom domain,
+Netlify, Vercel, or a `username.github.io` user site.
 
 ---
 
