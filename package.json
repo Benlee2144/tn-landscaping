@@ -1,0 +1,18 @@
+{
+  "name": "hot-sauce-co-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Marketing site for a small-batch hot sauce brand in Knoxville, Tennessee. Static HTML/CSS/JS — no framework, no bundler, deploys anywhere.",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "build:art": "node tools/build.mjs art",
+    "build:pages": "node tools/build.mjs pages",
+    "build:chrome": "node tools/build.mjs chrome",
+    "start": "python3 -m http.server 4000",
+    "serve": "python3 -m http.server 4000"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

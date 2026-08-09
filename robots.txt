@@ -1,0 +1,7 @@
+# Hot Sauce Co.
+# Update the Sitemap host below to the real domain before launch.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml

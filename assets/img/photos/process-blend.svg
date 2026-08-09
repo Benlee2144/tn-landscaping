@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Blending">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#221e1b"/>
+      <stop offset=".55" stop-color="#171412"/>
+      <stop offset="1" stop-color="#2a201a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".7" cy=".25" r=".8">
+      <stop offset="0" stop-color="#e85d1f" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#e85d1f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <rect x="14" y="14" width="1172" height="872" fill="none"
+        stroke="#ffffff" stroke-opacity=".16" stroke-width="1.5" stroke-dasharray="9 7" rx="6"/>
+
+  <g transform="translate(600 406)" opacity=".5">
+    <path d="M-16 6c0-14 11-25 25-25 3 0 6 .5 8 1.5C13-24 6-28 0-28c-14 0-25 12-25 26 0 16 14 30 25 34 11-4 25-18 25-34"
+          fill="none" stroke="#e8a33d" stroke-width="2.4" stroke-linecap="round" transform="scale(1.15)"/>
+  </g>
+
+  <text x="600" y="472" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+        font-size="29" font-weight="700" letter-spacing="2.5"
+        fill="#f4ece0" opacity=".92">BLENDING</text>
+  <text x="600" y="498" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+        font-size="19" letter-spacing="1.2" fill="#b3a698" opacity=".8">Pot on the stove, steam, hands stirring</text>
+  <text x="600" y="874" text-anchor="middle" font-family="Helvetica,Arial,sans-serif"
+        font-size="11" letter-spacing="2" fill="#877d71" opacity=".8">PLACEHOLDER · 1200 × 900</text>
+</svg>
